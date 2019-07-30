@@ -2,7 +2,11 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Axios from 'axios';
-import Display from './components/display'
+import Display from './components/display';
+import Colors from './components/color_show/color_show';
+import LatandLong from './components/latandlong';
+import SimpleMap from './components/map';
+import MapContainer from './components/googlemapsreact';
 
 class App extends Component {
   constructor(){
@@ -70,6 +74,7 @@ class App extends Component {
   }
 
   render(){
+
     let margins = {
       marginBottom: '100px'
     }
@@ -78,6 +83,7 @@ class App extends Component {
     })
     return (
       <div className="App">
+      {/* <LatandLong />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <div>
@@ -93,6 +99,11 @@ class App extends Component {
           </div>
 
         </header>
+
+        <div>
+          <Colors />
+        </div> */}
+        <MapContainer />
       </div>
     );
   }

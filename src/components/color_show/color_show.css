@@ -1,0 +1,30 @@
+.textHolder {
+    background-color: #243665;
+    width: 60%;
+    border-radius: 5px;
+    height: 300px;
+}
+
+.parentDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.colorShower {
+    width: 30%;
+}
+
+.colorOne {
+    background-color: #8BD8BD;
+    height: 150px;
+    margin-top: -15px;
+}
+
+.colorOneName {
+    color: #243665;
+    top: 75px;
+}
